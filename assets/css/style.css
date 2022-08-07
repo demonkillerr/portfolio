@@ -228,9 +228,9 @@ h1, h2, h3, h4, h5, h6
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Welcome Section
 --------------------------------------------------------------*/
-#hero 
+#welcome 
 {
     width: 100%;
     height: 100vh;
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6
     background-size: cover;
 }
   
-#hero:before 
+#welcome:before 
 {
     content: "";
     background: rgba(5, 13, 24, 0.3);
@@ -250,14 +250,14 @@ h1, h2, h3, h4, h5, h6
     z-index: 1;
 }
   
-#hero .hero-container 
+#welcome .welcome-container 
 {
     position: relative;
     z-index: 2;
     min-width: 300px;
 }
   
-#hero h1 
+#welcome h1 
 {
     margin: 0 0 10px 0;
     font-size: 64px;
@@ -266,7 +266,7 @@ h1, h2, h3, h4, h5, h6
     color: #fff;
 }
 
-#hero p 
+#welcome p 
 {
     color: #fff;
     margin-bottom: 50px;
@@ -274,7 +274,7 @@ h1, h2, h3, h4, h5, h6
     font-family: "Poppins", sans-serif;
 }
   
-#hero p span 
+#welcome p span 
 {
     color: #fff;
     padding-bottom: 4px;
@@ -284,7 +284,7 @@ h1, h2, h3, h4, h5, h6
   
 @media (min-width: 1024px) 
 {
-    #hero 
+    #welcome 
     {
       background-attachment: fixed;
     }
@@ -292,12 +292,12 @@ h1, h2, h3, h4, h5, h6
 
 @media (max-width: 768px) 
 {
-    #hero h1 
+    #welcome h1 
     {
       font-size: 28px;
       line-height: 36px;
     }
-    #hero h2 
+    #welcome h2 
     {
       font-size: 18px;
       line-height: 24px;
